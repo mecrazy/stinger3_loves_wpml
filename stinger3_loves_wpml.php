@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: STINGER3 loves WPML
-Plugin URI: http://mecrazy.net/
+Plugin URI: http://mecrazy.net/ja/2014/06/04/wordpress%E3%83%86%E3%83%BC%E3%83%9Estinger3%E3%82%92wpml3-1-5%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%99%E3%82%8B/
 Description: This plugin make STINGER3(WordPress theme) compatible with WPML(Multilingual plugin).
 Version: 1.0.0
 Author: mecrazy
