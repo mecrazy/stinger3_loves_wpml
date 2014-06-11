@@ -1,5 +1,5 @@
 #STINGER3 loves WPML
-* Version 1.0.0
+* Version 1.0.1
 * Copyright 2014, mecrazy - [http://mecrazy.net](http://mecrazy.net "http://mecrazy.net")  
 
 ##Description
@@ -7,3 +7,7 @@
 * Tested on WordPress 3.9.1
 * Tested on WPML 3.1.5
 * Tested on STINGER3 20140327ver
+
+##Release note
+* 1.0.1 Fixed  - Can't trigger first tap of Android/iOS
+* 1.0.0 First version

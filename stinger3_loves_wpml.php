@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: STINGER3 loves WPML
-Plugin URI: http://mecrazy.net/ja/2014/06/04/wordpress%E3%83%86%E3%83%BC%E3%83%9Estinger3%E3%82%92wpml3-1-5%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%99%E3%82%8B/
+Plugin URI: http://mecrazy.net/2014/06/09/make-stinger3-compatible-with-wpml/
 Description: This plugin make STINGER3(WordPress theme) compatible with WPML(Multilingual plugin).
-Version: 1.0.0
+Version: 1.0.1
 Author: mecrazy
 Author URI: http://mecrazy.net/
 License: GPL2
@@ -34,12 +34,14 @@ function wpml_with_stinger_3_js(){
 ?>
 <script type="text/javascript">
 jQuery(function($){
+var langMenuObj=$('.submenu-languages').eq(0);
+var wpmlMobile=(typeof(window.orientation)!='undefined');
 $('.menu-item-language-current').eq(0).on('mouseenter',function(){
-$('.submenu-languages').stop(true,true).fadeIn('fast');
+if(!wpmlMobile){langMenuObj.stop(true,true).fadeIn('fast');}
 }).on('mouseleave',function(){
-$('.submenu-languages').stop(true,true).fadeOut('slow');
+if(!wpmlMobile){langMenuObj.stop(true,true).fadeOut('slow');}
 }).on('click',function(){
-$('.submenu-languages').stop(true,true).toggle();
+langMenuObj.stop(true,true).toggle();
 });
 $('.icl_lang_sel_current ').parent().click(function(){ return false; });
 });
