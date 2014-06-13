@@ -9,5 +9,5 @@
 * Tested on STINGER3 20140327ver
 
 ##Release note
-* 1.0.1 Fixed  - Can't trigger first tap of Android/iOS
+* 1.0.1 Fixed  - Can't handle first tap event of Android/iOS
 * 1.0.0 First version
